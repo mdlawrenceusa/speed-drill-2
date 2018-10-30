@@ -10,7 +10,24 @@
 <div class="callout" align="center">
   <h1>THE WORLD OF HATTERAS</h1>
   <hr>
-  <h5>Story Page.</h5>
+  <p>
+  {
+      "Version": "2008-10-17",
+      "Statement": [
+          {
+              "Sid": "PublicReadForGetBucketObjects",
+              "Effect": "Allow",
+              "Principal": {
+                  "AWS": "*"
+              },
+              "Action": "s3:GetObject",
+              "Resource": "arn:aws:s3:::et710.com/*"
+          }
+      ]
+  }
+
+  </p>
+  <h5>Story Page!</h5>
 </div>
 <!-- *End Callout-->
 <div class="marketing-site-content-section">
@@ -31,4 +48,5 @@
     <img src="https://www.powerandmotoryacht.com/.image/t_share/MTUxNTM0NjcyOTQ0MzA5NDc4/prm_hatteras-m90-panacera.jpg" alt="" />
   </div>
 </div>
+
 <!-- *End Content-->
